@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #F7F1EC;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    background: #82C6D2;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    opacity: 0.7;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url("/img/hero.PNG");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.hero-text h1 {
+    max-width: 520px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -200px;
+    font-weight: 600px;
+    color: #7DC3CE;
+}
+
+.hero-text p {
+    max-width: 350px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -150px;
+    color: #FF8B62;
+    font-size: 24px;
+}
+
+
+.hero-text button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 14px;
+    background: #82C6D2;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: fit-content;
+    top: -200px;
+}
+
+
+.hero-text button:hover {
+    transform: scale(1.05);
+}
+
+
+/* HOT */
+
+.hot {
+    background: #82C6D2;
+    padding: 80px 0;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 42px;
+}
+
+.title span {
+    color: #FF885E;
+}
+
+.title p {
+    color: #F4D173;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.countries {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.country img {
+    width: 220px;
+    transition: 0.3s;
+}
+
+.country img:hover {
+    transform: translateY(-10px);
+}
+
+/* TOURS */
+
+.tours {
+    background: #82C6D2;
+    padding: 90px 0;
+    margin-top: 40px;
+}
+
+.tours h2 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.tabs {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.tabs span {
+    color: white;
+    cursor: pointer;
+}
+
+.tabs .active {
+    color: #FF885E;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 60px;
+    
+}
+
+
+.filters button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #7DC3CE;
+    font-size: 24px;
+    
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 33%;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 25px;
+    display: block;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    width: 100%;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.date {
+    background: #82C6D2;
+    width: fit-content;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin-top: -80px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.card-text h3 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #F7F1EC;
+}
+
+.card p {
+    color: #F7F1EC;
+}
+
+.date {
+    color: #F7F1EC;
+}
+/* FOOTER */
+
+.footer {
+    background: #F7F1EC;
+    padding: 80px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #A6CDD5;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #A6CDD5;
+    font-size: 18px;
+}
